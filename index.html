@@ -3,10 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World</h1>
-    <h2>Dont be like me</h2>
+    <main>
+        <div id="logo">
+            <img src="img/logo.svg" alt="piggybank logo">
+            <span>Piggyvest</span>
+        </div>
+        <div class="container">
+            <h3 class="font">Login to your account</h3>
+            <p class="font">Securely login to your piggyvest</p>
+
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="email">Email or Phone Number</label>
+                    <input type="text" name="email" id="">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="">
+                </div>
+                <button type="submit">LOG IN</button>
+            </form>
+        </div>
+        <p>Don't have an account? <a href="#">Register</a></p>
+        <p><a href="#">Forgot Password</a></p>
+    </main>
+
+    <div id="top-left"></div>
+    <div id="top-right"></div>
+    <div id="bottom-left"></div>
+    <div id="bottom-right"></div>
 </body>
 </html>
